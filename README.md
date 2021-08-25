@@ -14,7 +14,7 @@
 [link to the slides](https://docs.google.com/presentation/d/1H8vDbZGVxHH_kP9TYe-ZQDcl2RVftSQgeA8YPAbBnVs/edit?usp=sharing)
 - Create a pagination function:
     - Input: db cursor, offset, size
-    - Output: \\
+    - Output: <br>
 ` return {
     data: data,
     next_url: "?offset={offset}&size={size}",
