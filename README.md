@@ -16,8 +16,8 @@
     - Input: db cursor, offset, size
     - Output:
  ` return {
-    data
-    next_url: "?offset={offset}&size={size}"
+    data: data,
+    next_url: "?offset={offset}&size={size}",
     previous_url : "?offset={offset}&size={size}"
  }
  `
