@@ -9,3 +9,15 @@
     + Don't run the SECOND cell because it contains the results for you to compare with your results
 - Ask me any question if you have difficulties
 - Good luck and use MongoDB
+
+# MongoDB a little bit intermidiate
+[link to the slides](https://docs.google.com/presentation/d/1H8vDbZGVxHH_kP9TYe-ZQDcl2RVftSQgeA8YPAbBnVs/edit?usp=sharing)
+- Create a pagination function:
+    - Input: db cursor, offset, size
+    - Output:
+ ` return {
+    data
+    next_url: "?offset={offset}&size={size}"
+    previous_url : "?offset={offset}&size={size}"
+ }
+ `
