@@ -15,9 +15,8 @@
 - Create a pagination function:
     - Input: db cursor, offset, size
     - Output:
- ` return {
+ ` return{
     data: data,
     next_url: "?offset={offset}&size={size}",
-    previous_url : "?offset={offset}&size={size}"
- }
+    previous_url : "?offset={offset}&size={size}"}
  `
